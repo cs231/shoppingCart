@@ -1,0 +1,125 @@
+<html>
+</head>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+	background-image:url("https://img.freepik.com/free-photo/abstract-blurred-photo-store-with-trolley-department-store-bokeh-background_1980-8.jpg?size=626&ext=jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  
+
+  margin-left: 700px;
+    margin-top: 50px;
+  max-width: 300px;
+  padding: 6px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 20px solid ;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body bgcolor="CCCCFF"> 
+<br><br><br>
+<center>
+
+<div  border="20px"   class="container">
+  <form action="http://localhost:8081/login" method='post' >
+  <div class="transfox">
+    <h1 style="color:FF99CC"> </h1>
+
+    <label for="email"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="email" required>
+
+    <label for="psw"><b>password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+    <button type="submit" class="btn">Login</button>
+	  <a style="text-decoration:none" href="reset.html"><h3 style="color:red;">reset password<h3><a>
+	  <div>
+  </form>
+
+</div></center>
+
+
+
+     </div>
+</body>
+
+</html>
